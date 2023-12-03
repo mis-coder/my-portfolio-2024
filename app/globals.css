@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --dark-fern: #3A4D39;
+    --moss-green: #4F6F52;
+    --sage-green: #739072;
+    --vanilla-cream: #ECE3CE;
+}
+
+body {}
