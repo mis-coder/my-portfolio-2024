@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <div className="hidden lg:flex md:flex  bg-dark-fern text-vanilla-cream p-4 justify-between">
+    <div className="w-screen hidden lg:flex md:flex  bg-dark-fern text-vanilla-cream p-4 justify-between">
       <h1 className="">Antra Verma</h1>
       <div>
         {sections.map((section) => (

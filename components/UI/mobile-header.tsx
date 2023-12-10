@@ -19,7 +19,7 @@ const MobileHeader = () => {
     <div className="flex lg:hidden md:hidden bg-dark-fern text-vanilla-cream p-4 justify-between text-sm">
       <h1 className="">Antra Verma</h1>
       <FaHamburger
-        className="cursor-pointer text-2xl hover:text-sage-green"
+        className="cursor-pointer text-xl hover:text-sage-green"
         onClick={openSideBar}
       />
 
@@ -32,7 +32,7 @@ const MobileHeader = () => {
           {sections.map((section) => (
             <Link
               href={section.href}
-              target='_blank'
+              target="_blank"
               key={section.name}
               className="m-4 text-sage-green  cursor-pointer hover:text-dark-fern"
             >
