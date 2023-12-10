@@ -17,7 +17,7 @@ const MobileHeader = () => {
 
   return (
     <div className="flex lg:hidden md:hidden bg-dark-fern text-vanilla-cream p-4 justify-between text-sm">
-      <h1 className="">Antra Verma</h1>
+      <Link href="/">Antra Verma</Link>
       <FaHamburger
         className="cursor-pointer text-xl hover:text-sage-green"
         onClick={openSideBar}
