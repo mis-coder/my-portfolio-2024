@@ -1,7 +1,7 @@
 export const sections = [
   {
     name: "Portfolio",
-    href: `${process.env.NEXT_APP_BASE_URL}/portfolio`,
+    href: "/portfolio",
   },
   { name: "About", href: "" },
   { name: "Resume", href: "" },

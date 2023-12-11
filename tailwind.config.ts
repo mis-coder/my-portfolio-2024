@@ -15,6 +15,7 @@ const config: Config = {
       },
     },
     colors: {
+      "grey-color": "#7B7D7D",
       "dark-fern": "#3A4D39",
       "moss-green": "#4F6F52",
       "sage-green": "#739072",

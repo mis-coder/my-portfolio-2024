@@ -2,8 +2,8 @@ import Link from "next/link";
 
 const IntroSection = () => {
   return (
-    <div className="h-screen w-screen bg-vanilla-cream flex flex-col align-middle justify-center text-center">
-      <h1 className="text-5xl text-sage-green leading-normal">
+    <div className="p-4 h-screen w-screen bg-vanilla-cream flex flex-col align-middle justify-center text-center">
+      <h1 className="text-3xl lg:text-5xl md:text-5xl text-sage-green leading-normal">
         Hello, my name is Antra Verma. I am a {""}
         <span className="text-dark-fern font-semibold">
           full stack developer

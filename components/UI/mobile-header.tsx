@@ -16,7 +16,7 @@ const MobileHeader = () => {
   };
 
   return (
-    <div className="flex lg:hidden md:hidden bg-dark-fern text-vanilla-cream p-4 justify-between text-sm">
+    <div className="w-screen flex lg:hidden md:hidden bg-dark-fern text-vanilla-cream p-6 justify-between text-sm">
       <Link href="/">Antra Verma</Link>
       <FaHamburger
         className="cursor-pointer text-xl hover:text-sage-green"
@@ -24,7 +24,7 @@ const MobileHeader = () => {
       />
 
       {showSideBar && (
-        <div className="bg-vanilla-cream fixed h-screen w-1/2 flex flex-col top-0 right-0 p-10">
+        <div className="bg-vanilla-cream fixed h-screen w-1/2 flex flex-col top-0 right-0 p-10 z-10">
           <FaWindowClose
             className="text-sage-green fixed right-1 top-1 text-xl cursor-pointer"
             onClick={closeSideBar}
