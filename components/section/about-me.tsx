@@ -8,26 +8,30 @@ const AboutMeSection = () => {
         alt="profile-pic"
       />
       <h3 className="font-bold text-moss-green text-xl italic">
-        "Simplifying Complexity, Code by Code."
+        "Simplifying the Complexity."
       </h3>
       <p className="text-base text-grey-color mt-6">
-        Hello! I'm a full-stack web developer with a flair for front-end
-        technologies, particularly <b>ReactJS</b>, <b>NextJS</b>, and{" "}
-        <b>TypeScript</b>. <br />
-        <br />
-        My professional journey began with a foundational internship/
-        freelancing at Glexpace, followed by a stint in the GirlScript Summer of
-        Code, which solidified my skills in these core technologies. As an
-        Associate Software Engineer at VT Netzwelt Pvt. Ltd., I further honed my
-        expertise, focusing on creating seamless user experiences and robust web
-        applications. <br />
-        In addition to my corporate role, I ventured into freelancing, tackling
-        diverse full-stack projects. This experience not only sharpened my
-        technical skills but also deepened my understanding of crafting
-        user-friendly and efficient web solutions. <br />
-        <br />
-        My career is a testament to continuous learning and a passion for
-        utilizing technology to solve complex challenges.
+        Hi, I'm Antra, a Full Stack Developer with a deep-rooted passion for
+        building and innovating. In the ever-evolving landscape of web
+        development, I find joy in turning intricate challenges into elegant,
+        user-friendly solutions. <br /><br /> What drives me?<br /> A relentless pursuit of
+        knowledge and an innate ability to rapidly absorb and apply new skills.
+        I specialize in Web Application Development, constantly expanding my
+        technical toolkit to stay at the forefront of the industry.<br /><br /> Beyond my
+        technical prowess, I pride myself on my ability to communicate complex
+        ideas, weave compelling narratives, manage time effectively, and
+        collaborate seamlessly within teams. These soft skills not only
+        complement my technical abilities but also enable me to bring holistic
+        perspectives to the projects I undertake.<br /><br /> I'm also an enthusiast for all
+        things organized – from my wardrobe to my workflow, I believe that order
+        is the first step towards efficiency. This love for organization extends
+        to my personal life, where I find solace in the tranquility of nature
+        and the simple pleasure of a cup of tea, especially one made by my
+        mother.<br /><br /> In my quest to create, I blend the precision of coding with the
+        artistry of design, ensuring that every project is not just functional
+        but also aesthetically pleasing.<br /><br /> Feel free to connect with me as I
+        continue to explore, build, and share insights in the world of web
+        development and beyond. Let's inspire and be inspired!
       </p>
     </div>
   );
