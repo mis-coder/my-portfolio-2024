@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const AboutMeSection = () => {
   return (
     <div
@@ -5,17 +7,20 @@ const AboutMeSection = () => {
       className="p-4 w-screen bg-white flex flex-col align-middle justify-center text-center"
     >
       <h1 className="my-4 text-3xl text-dark-fern font-semibold">About Me</h1>
-      <img
+      <Image
         className="mx-auto my-4 h-48 w-48"
-        src="images/profile.png"
+        src="/images/profile.png"
+        width={48}
+        height={48}
         alt="profile-pic"
+        unoptimized
       />
       <h3 className="font-bold text-moss-green text-xl italic">
-        "Simplifying the Complexity."
+        &quot; Simplifying the Complexity. &quot;
       </h3>
       <p className="px-10 text-base text-grey-color mt-6 md:text-justify lg:text-justify md:px-20 lg:px-20">
-        Hi, I'm Antra, a Full Stack Developer with a deep-rooted passion for
-        building and innovating. In the ever-evolving landscape of web
+        Hi, I&apos;m Antra, a Full Stack Developer with a deep-rooted passion
+        for building and innovating. In the ever-evolving landscape of web
         development, I find joy in turning intricate challenges into elegant,
         user-friendly solutions. <br />
         <br /> What drives me?
@@ -30,7 +35,7 @@ const AboutMeSection = () => {
         not only complement my technical abilities but also enable me to bring
         holistic perspectives to the projects I undertake.
         <br />
-        <br /> I'm also an enthusiast for all things organized – from my
+        <br /> I&apos;m also an enthusiast for all things organized – from my
         wardrobe to my workflow, I believe that order is the first step towards
         efficiency. This love for organization extends to my personal life,
         where I find solace in the tranquility of nature and the simple pleasure
@@ -41,8 +46,8 @@ const AboutMeSection = () => {
         but also aesthetically pleasing.
         <br />
         <br /> Feel free to connect with me as I continue to explore, build, and
-        share insights in the world of web development and beyond. Let's inspire
-        and be inspired!
+        share insights in the world of web development and beyond. Let&apos;s
+        inspire and be inspired!
       </p>
     </div>
   );
