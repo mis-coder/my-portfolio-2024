@@ -4,7 +4,10 @@ import { MdOutlineContentPasteSearch } from "react-icons/md";
 
 const ResumeSection = () => {
   return (
-    <div className="my-8 p-4 w-screen bg-sage-green flex flex-col align-middle justify-center text-center">
+    <div
+      id="resume"
+      className="my-8 p-4 w-screen bg-sage-green flex flex-col align-middle justify-center text-center"
+    >
       <h1 className="my-4 text-3xl text-vanilla-cream font-semibold">Resume</h1>
       <div className="mt-6 mb-4 flex align-middle justify-center">
         <Link

@@ -7,16 +7,16 @@ import { FaHamburger, FaWindowClose } from "react-icons/fa";
 const MobileHeader = () => {
   const [showSideBar, setShowSideBar] = useState<boolean>(false);
 
-  const openSideBar = () => {
+  const openSideBar = (): void => {
     setShowSideBar(true);
   };
 
-  const closeSideBar = () => {
+  const closeSideBar = (): void => {
     setShowSideBar(false);
   };
 
   return (
-    <div className="w-screen flex lg:hidden md:hidden bg-dark-fern text-vanilla-cream p-6 justify-between text-sm">
+    <div className="w-screen flex lg:hidden md:hidden bg-dark-fern text-vanilla-cream p-6 justify-between text-md">
       <Link href="/">Antra Verma</Link>
       <FaHamburger
         className="cursor-pointer text-xl hover:text-sage-green"
@@ -32,7 +32,7 @@ const MobileHeader = () => {
           {sections.map((section) => (
             <Link
               href={section.href}
-              target="_blank"
+              target={section.target}
               key={section.name}
               className="m-4 text-sage-green  cursor-pointer hover:text-dark-fern"
             >

@@ -4,7 +4,7 @@ import ResumeSection from "@/components/section/resume";
 
 export default function Home() {
   return (
-    <main>
+    <main className="scroll-smooth">
       <IntroSection />
       <AboutMeSection />
       <ResumeSection />
