@@ -11,7 +11,7 @@ const IntroSection = () => {
         .
       </h1>
       <Link
-        href={`${process.env.NEXT_APP_BASE_URL}/portfolio`}
+        href="/portfolio"
         target="_blank"
         className="relative px-6 py-3 font-bold text-vanilla-cream group  mx-auto my-16"
       >
