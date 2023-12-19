@@ -1,3 +1,12 @@
+import { projects } from "@/static-data";
+import Card from "./components/card";
+
 export default function PortfolioPage() {
-  return <div className="h-screen w-screen flex items-center justify-center bg-vanilla-cream text-dark-fern text-6xl font-bold">Coming Soon.</div>;
+  return (
+    <div className="h-screen w-screen flex items-center justify-center bg-vanilla-cream text-dark-fern text-6xl font-bold">
+      {projects.map((project, index) => {
+        return <Card key={index} {...project} />;
+      })}
+    </div>
+  );
 }
