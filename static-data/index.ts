@@ -17,7 +17,7 @@ export const sections = [
 export const projects = [
   {
     name: "Market-X",
-    description: "An ecommerce dashboard built using NextJS and TypeScript",
+    description: "An ecommerce dashboard built using NextJS and TypeScript.",
     codeUrl: "https://github.com/mis-coder/market-x-admin",
     liveUrl: "https://market-x-admin.vercel.app/",
     previewSrc: "/images/market-x-admin.png",
