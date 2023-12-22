@@ -4,7 +4,7 @@ import { MdEmail } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <div className="my-8 p-4 w-screen flex flex-col align-middle justify-center text-center">
+    <div className="my-8 p-4 w-screen flex flex-col items-center justify-center text-center bg-white h-auto">
       <div className="mt-6 mb-4 flex align-middle justify-center text-dark-fern text-2xl gap-2">
         <Link className="w-3xl h-3xl p-2  border-2 border-solid border-dark-fern rounded-3xl hover:border-vanilla-cream hover:text-vanilla-cream" href="https://www.linkedin.com/in/antra-verma/" target="_blank">
           <FaLinkedin />

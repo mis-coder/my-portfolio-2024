@@ -18,10 +18,11 @@ const Card: React.FC<CardProps> = ({
   previewSrc,
 }) => {
   return (
-    <div className="bg-white w-screen h-auto lg:w-1/3 md:w-1/3 py-8 px-6 rounded-lg shadow-md ml-8 mr-12">
+    <div className="bg-white w-90 h-auto lg:w-1/3 md:w-1/3 py-8 px-6 rounded-lg shadow-md max-sm:mx-auto gap-2">
       <h1 className="text-lg">{name}</h1>
       <Image
-        className="mx-auto my-4 h-full w-full"
+        loading="lazy"
+        className="mx-auto my-4 h-auto w-screen"
         src={previewSrc}
         width={48}
         height={48}
