@@ -32,13 +32,6 @@ const Card: React.FC<CardProps> = ({
       <p className="text-sm">{description}</p>
       <div className="flex items-center justify-start text-sm mt-6">
         <Link
-          href={codeUrl}
-          target="_blank"
-          className="flex items-center   justify-center h-12 w-40 rounded-lg border-2 border-dark-fern bg-white mr-2 hover:bg-dark-fern hover:text-vanilla-cream"
-        >
-          View Source Code
-        </Link>
-        <Link
           href={liveUrl}
           target="_blank"
           className="flex items-center  justify-center h-12 w-40 rounded-lg 
@@ -46,6 +39,13 @@ const Card: React.FC<CardProps> = ({
         hover:bg-dark-fern"
         >
           View Live App
+        </Link>
+        <Link
+          href={codeUrl}
+          target="_blank"
+          className="flex items-center   justify-center h-12 w-40 rounded-lg border-2 border-dark-fern bg-white mr-2 hover:bg-dark-fern hover:text-vanilla-cream"
+        >
+          View Source Code
         </Link>
       </div>
     </div>
