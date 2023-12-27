@@ -16,10 +16,17 @@ export const sections = [
 
 export const projects = [
   {
-    name: "Market-X",
-    description: "An ecommerce dashboard built using NextJS and TypeScript.",
+    name: "Market-X (Admin)",
+    description: "An e-commerce dashboard built using NextJS and TypeScript.",
     codeUrl: "https://github.com/mis-coder/market-x-admin",
     liveUrl: "https://market-x-admin.vercel.app/",
     previewSrc: "/images/market-x-admin.png",
   },
+  {
+    name: "Market-X (Store)",
+    description: "E-commerce store built using Market-X admin.",
+    codeUrl: "https://github.com/mis-coder/market-x-store",
+    liveUrl: "https://market-x-store.vercel.app/",
+    previewSrc: "/images/market-x-store.png",
+  }
 ];
