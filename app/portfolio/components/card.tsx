@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import React, { MouseEvent, useState } from "react";
+import React, { MouseEventHandler, useState } from "react";
 
 interface CardProps {
   name: string;
@@ -21,11 +21,11 @@ const Card: React.FC<CardProps> = ({
 }) => {
   const [hovered, setHovered] = useState<boolean>(false);
 
-  const _onMouseEnter = (e: MouseEvent<HTMLImageElement, MouseEvent>) => {
+  const _onMouseEnter: MouseEventHandler<HTMLDivElement> = (e) => {
     setHovered(true);
   };
 
-  const _onMouseLeave = (e: MouseEvent<HTMLImageElement, MouseEvent>) => {
+  const _onMouseLeave: MouseEventHandler<HTMLDivElement> = (e) => {
     setHovered(false);
   };
 
