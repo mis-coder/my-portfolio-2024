@@ -38,12 +38,12 @@ const Card: React.FC<CardProps> = ({
         onMouseLeave={_onMouseLeave}
       >
         {hovered ? (
-          <div className="mx-auto my-4 h-48 w-auto rounded-lg cursor-pointer bg-moss-green text-sm text-vanilla-cream flex items-center justify-center p-6 bg-opacity-90 scale-75 transition duration-500 transform hover:scale-100">
+          <div className="mx-auto my-4 h-48 w-auto rounded-lg cursor-pointer bg-moss-green text-sm text-vanilla-cream flex items-center justify-center p-6">
             {description}
           </div>
         ) : (
           <Image
-            className="mx-auto my-4 h-48 w-screen rounded-lg cursor-pointer"
+            className="mx-auto my-4 h-48 w-screen rounded-lg cursor-pointer transform hover:scale-105"
             src={previewSrc}
             width={500}
             height={250}
